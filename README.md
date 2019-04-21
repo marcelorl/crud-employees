@@ -1,8 +1,16 @@
-# My DRF Skeleton with Docker
+# CRUD employees
 
-My own Django project skeleton with Django Rest framework ready for Docker.
+Project to CRUD employees made with DRF
 
-# Quickstart in Development
+## tools
+
+ - django
+ - django rest
+ - postgresql
+ - docker
+ - 
+
+## installation
 
 ```
 docker-compose up -d
@@ -10,23 +18,9 @@ docker-compose run restapi python manage.py migrate
 docker-compose run restapi python manage.py createsuperuser
 ```
 
-Then, django rest framwork will be available at `docker-machine ip [your machine]` on port 8000.
+## usage
 
-To create new app:
+Then, the project will be available at http://localhost:8000 and you have the following features available:
 
-```
-docker-compose run restapi python manage.py startapp my-app project/apps/my-app
-```
-
-# Production
-
-Depending on what you use:
-
-```
-docker build ./restapi your-app
-docker tag your-app tag
-docker push your-username/your-app:tag
-```
-
-http://127.0.0.1:8000/admin
-http://127.0.0.1:8000/api/employees
+Admin website -> http://localhost:8000/admin
+CRUD API -> http://localhost:8000/api/employees
