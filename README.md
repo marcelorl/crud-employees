@@ -25,4 +25,4 @@ Then, the project will be available at http://localhost:8000 and you have the fo
  - http://localhost:8000/admin
 
 ### crud api
- - http://localhost:8000/api/employees
+ - http://localhost:8000/api/employees/
