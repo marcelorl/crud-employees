@@ -21,5 +21,8 @@ docker-compose run restapi python manage.py createsuperuser
 
 Then, the project will be available at http://localhost:8000 and you have the following features available:
 
-Admin website -> http://localhost:8000/admin
-CRUD API -> http://localhost:8000/api/employees
+### admin website
+ - http://localhost:8000/admin
+
+### crud api
+ - http://localhost:8000/api/employees
