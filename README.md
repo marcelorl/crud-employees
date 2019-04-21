@@ -11,15 +11,17 @@ Project to CRUD employees made with DRF
 
 ## installation
 
+Make sure you have docker installed, then run in the root folder:
+
 ```
-docker-compose up -d
-docker-compose run restapi python manage.py migrate
-docker-compose run restapi python manage.py createsuperuser
+$ docker-compose up -d
+$ docker-compose run restapi python manage.py migrate
+$ docker-compose run restapi python manage.py createsuperuser
 ```
 
 ## usage
 
-Then, the project will be available at http://localhost:8000 and you have the following features available:
+The project will be available at http://localhost:8000 and you have the following features available as required:
 
 ### admin website
  - http://localhost:8000/admin
