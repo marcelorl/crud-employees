@@ -8,7 +8,6 @@ Project to CRUD employees made with DRF
  - django rest
  - postgresql
  - docker
- - 
 
 ## installation
 
